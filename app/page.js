@@ -14,7 +14,7 @@ export default function Page() {
           <h2 className="max-w-2xl text-center text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-5xl">More variants for, <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">shadcn/ui buttons.</span></h2>
           <p className="max-w-md text-center text-sm sm:text-lg text-gray-600 dark:text-gray-400 mt-3">Explore a collection of more variants for shadcn/ui buttons built using javascript and tailwindcss.</p>
           <div className="flex items-center gap-3 mt-8">
-            <Button variant="pulseBtn" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons">Installation</Link></Button>
+            <Button variant="pulseBtn" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons/blob/master/README.md">Installation</Link></Button>
             <Button variant="secondary" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons" className="flex items-center gap-1.5">Contribute <Star className="w-4 h-4"/></Link></Button>
           </div>
         </div>
