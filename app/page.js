@@ -1,5 +1,6 @@
 import { ModeToggle } from "@/components/ModeToggle";
 import { Button } from "@/components/ui/button";
+import { Star } from "lucide-react";
 import Link from "next/link";
 
 export default function Page() {
@@ -14,7 +15,7 @@ export default function Page() {
           <p className="max-w-md text-center text-sm sm:text-lg text-gray-600 dark:text-gray-400 mt-3">Explore a collection of more variants for shadcn/ui buttons built using javascript and tailwindcss.</p>
           <div className="flex items-center gap-3 mt-8">
             <Button variant="pulseBtn" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons">Installation</Link></Button>
-            <Button variant="secondary" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons">Contribute</Link></Button>
+            <Button variant="secondary" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons" className="flex items-center gap-1.5">Contribute <Star className="w-4 h-4"/></Link></Button>
           </div>
         </div>
       </section>
