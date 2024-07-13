@@ -11,7 +11,7 @@ export default function Page() {
       </header>
       <section className="py-14 px-6">
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-center text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-5xl">More variants for, <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">shadcn/ui buttons.</span></h2>
+          <h2 className="text-center max-w-3xl text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-5xl">More variants for, <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">shadcn/ui buttons.</span></h2>
           <p className="max-w-sm sm:max-w-lg text-center text-sm sm:text-lg text-gray-600 dark:text-gray-400 mt-3">Explore a collection of more variants for shadcn/ui buttons built using javascript and tailwindcss.</p>
           <div className="flex items-center gap-3 mt-8">
             <Button variant="pulse" asChild><Link href="https://github.com/r2hu1/more-shadcn-buttons/blob/master/README.md">Installation</Link></Button>
