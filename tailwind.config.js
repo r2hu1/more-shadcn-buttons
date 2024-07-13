@@ -70,7 +70,7 @@ module.exports = {
           to: { height: "0" },
         },
         "pulseGlow": {
-          from: { boxShadow: "0 0 0 0 hsl(var(--primary) / 25%)" },
+          from: { boxShadow: "0 0 0 0 hsl(var(--primary) / 30%)" },
           to: { boxShadow: "0 0 0 10px rgba(255, 255, 255, 0)" },
         },
         "spinner": {
@@ -81,8 +81,13 @@ module.exports = {
           '0%, 100%': { backgroundPosition: '0% 0%' },
           '50%': { backgroundPosition: '100% 100%' },
         },
+        "shine": {
+            from: { backgroundPosition: '200% 0' },
+            to: { backgroundPosition: '-200% 0' },
+          },
       },
       animation: {
+        "shine": "shine 8s ease-in-out infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulseGlow": "pulseGlow 1.75s infinite cubic-bezier(0.66, 0, 0, 1)",
